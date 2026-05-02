@@ -1,0 +1,34 @@
+PRODUCTO: Depósito a Plazo Fijo FinBot
+Categoría: Ahorro garantizado
+Código de producto: DPF-002
+
+DESCRIPCIÓN
+El Depósito a Plazo Fijo FinBot es un producto de ahorro con rentabilidad fija garantizada durante todo el plazo contratado. A diferencia de la Cuenta Ahorro Plan Seguro, la rentabilidad no varía durante la vida del depósito.
+
+CARACTERÍSTICAS PRINCIPALES
+- Rentabilidad anual: 3,2% TAE (fija durante todo el plazo)
+- Capital garantizado: sí, el 100% del capital está garantizado
+- Comisiones: ninguna
+- Importe mínimo: 1.000 €
+- Importe máximo: 500.000 €
+- Plazos disponibles: 6 meses, 12 meses, 24 meses
+- Plazo mínimo: 6 meses
+- Liquidez: no hay liquidez anticipada salvo causa justificada
+
+REQUISITOS DE CONTRATACIÓN
+- Ser mayor de 18 años
+- Ser residente fiscal en España
+- Tener una cuenta corriente activa en FinBot como cuenta de abono
+- Presentar DNI o NIE en vigor
+
+CANCELACIÓN ANTICIPADA
+La cancelación anticipada no está permitida con carácter general. En casos excepcionales justificados, FinBot puede autorizar la cancelación anticipada aplicando una penalización del 2% sobre el capital.
+
+RENOVACIÓN
+Al vencimiento, el depósito se renueva automáticamente por el mismo plazo salvo instrucción contraria del cliente con un mínimo de 5 días hábiles de antelación.
+
+FISCALIDAD
+Los intereses tributan como rendimientos del capital mobiliario en el IRPF. FinBot aplica una retención del 19% sobre los intereses al vencimiento de cada plazo.
+
+IMPORTANTE
+Este producto es distinto de la Cuenta Ahorro Plan Seguro. El capital queda inmovilizado durante el plazo contratado. No se pueden realizar ingresos adicionales una vez constituido el depósito.

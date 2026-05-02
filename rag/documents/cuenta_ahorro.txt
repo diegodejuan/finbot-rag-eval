@@ -1,0 +1,30 @@
+PRODUCTO: Cuenta Ahorro Plan Seguro
+Categoría: Ahorro
+Código de producto: CAP-001
+
+DESCRIPCIÓN
+La Cuenta Ahorro Plan Seguro es un producto de ahorro sin riesgo que permite al cliente guardar dinero y obtener rentabilidad sin comprometer el capital. No tiene comisiones de mantenimiento ni de administración.
+
+CARACTERÍSTICAS PRINCIPALES
+- Rentabilidad anual: 2,5% TAE
+- Capital garantizado: sí, el 100% del capital está garantizado
+- Comisiones: ninguna
+- Importe mínimo de apertura: 500 €
+- Importe máximo: 100.000 €
+- Liquidez: inmediata, el cliente puede retirar su dinero en cualquier momento
+- Plazo: indefinido
+
+REQUISITOS DE CONTRATACIÓN
+- Ser mayor de 18 años
+- Ser residente fiscal en España
+- No tener otra Cuenta Ahorro Plan Seguro activa en FinBot
+- Presentar DNI o NIE en vigor
+
+FISCALIDAD
+Los intereses generados tributan como rendimientos del capital mobiliario en el IRPF. FinBot aplica una retención del 19% sobre los intereses en el momento del abono.
+
+CANCELACIÓN
+El cliente puede cancelar el producto en cualquier momento sin penalización. Los intereses devengados hasta la fecha de cancelación se abonan íntegramente.
+
+IMPORTANTE
+Este producto no es un depósito a plazo. La rentabilidad puede revisarse trimestralmente por FinBot con un preaviso de 30 días al cliente.

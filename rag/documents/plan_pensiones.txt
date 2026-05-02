@@ -1,0 +1,34 @@
+PRODUCTO: Plan de Pensiones Futuro Tranquilo
+Categoría: Previsión y jubilación
+Código de producto: PPJ-003
+
+DESCRIPCIÓN
+El Plan de Pensiones Futuro Tranquilo es un instrumento de ahorro a largo plazo orientado a complementar la pensión pública de jubilación. A diferencia de los productos de ahorro, el capital no está garantizado ya que está sujeto a la evolución de los mercados financieros.
+
+CARACTERÍSTICAS PRINCIPALES
+- Rentabilidad: variable, no garantizada, ligada a mercados financieros
+- Capital garantizado: no
+- Perfil de riesgo: moderado
+- Aportación mínima mensual: 50 €
+- Aportación máxima anual deducible fiscalmente: 1.500 € (límite legal vigente)
+- Aportación máxima anual total: 8.000 €
+- Liquidez: muy limitada, solo en supuestos legales
+
+SUPUESTOS DE LIQUIDEZ (rescate anticipado)
+El capital solo puede rescatarse anticipadamente en los siguientes supuestos legalmente establecidos:
+- Jubilación
+- Incapacidad laboral permanente
+- Desempleo de larga duración (más de 12 meses)
+- Enfermedad grave
+- Aportaciones con más de 10 años de antigüedad (a partir de 2025)
+
+REQUISITOS DE CONTRATACIÓN
+- Ser mayor de 18 años
+- Ser residente fiscal en España
+- Presentar DNI o NIE en vigor
+
+FISCALIDAD
+Las aportaciones al plan de pensiones reducen la base imponible del IRPF hasta el límite de 1.500 € anuales. El rescate tributa como rendimientos del trabajo en el año del cobro.
+
+IMPORTANTE
+Este producto no es adecuado para clientes que puedan necesitar el dinero a corto o medio plazo. No debe confundirse con la Cuenta Ahorro Plan Seguro ni con el Depósito a Plazo Fijo, que sí garantizan el capital. FinBot no presta asesoramiento financiero personalizado; el cliente debe valorar si este producto se adapta a su situación personal.

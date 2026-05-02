@@ -1,0 +1,29 @@
+PRODUCTO: Tarjeta de Crédito FinBot Visa
+Categoría: Medios de pago
+Código de producto: TCV-004
+
+DESCRIPCIÓN
+La Tarjeta de Crédito FinBot Visa permite al cliente realizar compras y disposiciones de efectivo con cargo a una línea de crédito personal. El pago puede realizarse a fin de mes o fraccionado.
+
+CARACTERÍSTICAS PRINCIPALES
+- Límite de crédito: desde 500 € hasta 10.000 € según perfil del cliente
+- Modalidad de pago: pago total a fin de mes o pago fraccionado
+- TIN pago fraccionado: 18,99% anual
+- TAE pago fraccionado: 20,67%
+- Comisión de mantenimiento anual: 36 € (primer año gratuito)
+- Comisión de disposición de efectivo: 3% sobre el importe, mínimo 3 €
+- Seguro de compras incluido: sí, hasta 90 días desde la compra
+
+REQUISITOS DE CONTRATACIÓN
+- Ser mayor de 18 años
+- Ser residente fiscal en España
+- Tener ingresos demostrables mínimos de 700 € mensuales netos
+- No tener incidencias en ficheros de morosos (ASNEF u otros)
+- Tener una cuenta corriente activa en FinBot como cuenta de cargo
+- Presentar DNI o NIE en vigor y última nómina o declaración de renta
+
+CANCELACIÓN
+El cliente puede cancelar la tarjeta en cualquier momento. La cancelación implica el pago inmediato del saldo pendiente en su totalidad.
+
+IMPORTANTE
+El uso del pago fraccionado genera intereses. FinBot recomienda el pago total a fin de mes para evitar costes adicionales. Este producto implica la asunción de deuda; el cliente debe valorar su capacidad de pago antes de contratar.
