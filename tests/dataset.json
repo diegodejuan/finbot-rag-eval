@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "description": "Dataset de evaluación RAG para FinBot — 30 casos de prueba",
+  "cases": [
+    {
+      "id": "POS-001",
+      "category": "positivo",
+      "input": "¿El plan de pensiones garantiza el capital?",
+      "expected_output": "No. El Plan de Pensiones Futuro Tranquilo no garantiza el capital. Está sujeto a la evolución de los mercados financieros y es un producto orientado al largo plazo y la jubilación.",
+      "retrieval_context": [
+        "¿El Plan de Pensiones garantiza el capital? No. El Plan de Pensiones Futuro Tranquilo está sujeto a la evolución de los mercados financieros y no garantiza el capital. Es un producto orientado al largo plazo y la jubilación."
+      ]
+    },
+    {
+      "id": "POS-002",
+      "category": "positivo",
+      "input": "¿Cuál es la edad mínima para contratar un producto en FinBank?",
+      "expected_output": "La edad mínima para contratar cualquier producto de FinBank es 18 años.",
+      "retrieval_context": [
+        "¿Cuál es la edad mínima para contratar? La edad mínima para contratar cualquier producto de FinBank es 18 años."
+      ]
+    },
+    {
+      "id": "POS-003",
+      "category": "positivo",
+      "input": "¿Puedo contratar un producto de FinBank si vivo fuera de España?",
+      "expected_output": "No. Todos los productos de FinBank requieren ser residente fiscal en España en el momento de la contratación.",
+      "retrieval_context": [
+        "¿Puedo contratar productos si no soy residente en España? No. Todos los productos de FinBank requieren ser residente fiscal en España en el momento de la contratación."
+      ]
+    },
+    {
+      "id": "POS-004",
+      "category": "positivo",
+      "input": "¿Qué plazo mínimo tiene el depósito a plazo fijo?",
+      "expected_output": "El plazo mínimo del Depósito a Plazo Fijo FinBot es de 6 meses.",
+      "retrieval_context": [
+        "Plazos disponibles: 6 meses, 12 meses, 24 meses. Plazo mínimo: 6 meses."
+      ]
+    },
+    {
+      "id": "POS-005",
+      "category": "positivo",
+      "input": "¿Cuál es la aportación mínima mensual del plan de pensiones?",
+      "expected_output": "La aportación mínima mensual del Plan de Pensiones Futuro Tranquilo es de 50 euros.",
+      "retrieval_context": [
+        "Aportación mínima mensual: 50 €. Aportación máxima anual deducible fiscalmente: 1.500 € (límite legal vigente)."
+      ]
+    },
+    {
+      "id": "POS-006",
+      "category": "positivo",
+      "input": "¿Qué productos de FinBank están cubiertos por el Fondo de Garantía de Depósitos?",
+      "expected_output": "La Cuenta Ahorro Plan Seguro y el Depósito a Plazo Fijo están cubiertos por el Fondo de Garantía de Depósitos hasta 100.000 euros por titular. El Plan de Pensiones y la Tarjeta de Crédito no están sujetos al FGD.",
+      "retrieval_context": [
+        "La Cuenta Ahorro Plan Seguro y el Depósito a Plazo Fijo están cubiertos por el Fondo de Garantía de Depósitos español hasta 100.000 € por titular. El Plan de Pensiones Futuro Tranquilo y la Tarjeta de Crédito FinBot Visa no están sujetos al FGD."
+      ]
+    },
+    {
+      "id": "POS-007",
+      "category": "positivo",
+      "input": "¿Tiene comisiones la cuenta de ahorro?",
+      "expected_output": "No. La Cuenta Ahorro Plan Seguro no tiene comisiones de mantenimiento ni de administración.",
+      "retrieval_context": [
+        "Comisiones: ninguna. La Cuenta Ahorro Plan Seguro no tiene comisiones de mantenimiento ni de administración."
+      ]
+    },
+    {
+      "id": "POS-008",
+      "category": "positivo",
+      "input": "¿Cuál es la comisión de disposición de efectivo de la tarjeta de crédito?",
+      "expected_output": "La comisión de disposición de efectivo de la Tarjeta de Crédito FinBot Visa es del 3% sobre el importe, con un mínimo de 3 euros.",
+      "retrieval_context": [
+        "Comisión de disposición de efectivo: 3% sobre el importe, mínimo 3 €."
+      ]
+    },{
+      "id": "REC-001",
+      "category": "fallo_recuperacion",
+      "input": "¿Cuál es la rentabilidad de la cuenta de ahorro?",
+      "expected_output": "La rentabilidad de la Cuenta Ahorro Plan Seguro es del 2,5% TAE anual.",
+      "retrieval_context": [
+        "Rentabilidad anual: 2,5% TAE. Capital garantizado: sí, el 100% del capital está garantizado."
+      ]
+    },
+    {
+      "id": "REC-002",
+      "category": "fallo_recuperacion",
+      "input": "¿Puedo recuperar mi dinero antes de que venza el depósito?",
+      "expected_output": "La cancelación anticipada del Depósito a Plazo Fijo no está permitida con carácter general. En casos excepcionales justificados, FinBank puede autorizarla aplicando una penalización del 2% sobre el capital.",
+      "retrieval_context": [
+        "La cancelación anticipada no está permitida con carácter general. En casos excepcionales justificados, FinBot puede autorizar la cancelación anticipada aplicando una penalización del 2% sobre el capital."
+      ]
+    },
+    {
+      "id": "REC-003",
+      "category": "fallo_recuperacion",
+      "input": "¿Cuántos productos de ahorro puedo tener a la vez?",
+      "expected_output": "Puedes tener varios productos simultáneamente, con una excepción: no es posible tener más de una Cuenta Ahorro Plan Seguro activa al mismo tiempo en FinBot.",
+      "retrieval_context": [
+        "¿Puedo tener varios productos a la vez? Sí, con una excepción: no es posible tener más de una Cuenta Ahorro Plan Seguro activa simultáneamente en FinBot."
+      ]
+    },
+    {
+      "id": "REC-004",
+      "category": "fallo_recuperacion",
+      "input": "¿Qué documentos necesito para contratar la tarjeta de crédito?",
+      "expected_output": "Para contratar la Tarjeta de Crédito FinBot Visa necesitas: DNI o NIE en vigor, última nómina o declaración de renta, y tener una cuenta corriente activa en FinBot. Además debes tener ingresos mínimos de 700 euros mensuales netos y no tener incidencias en ficheros de morosos.",
+      "retrieval_context": [
+        "REQUISITOS DE CONTRATACIÓN: Ser mayor de 18 años. Ser residente fiscal en España. Tener ingresos demostrables mínimos de 700 € mensuales netos. No tener incidencias en ficheros de morosos (ASNEF u otros). Tener una cuenta corriente activa en FinBot como cuenta de cargo. Presentar DNI o NIE en vigor y última nómina o declaración de renta."
+      ]
+    },
+    {
+      "id": "REC-005",
+      "category": "fallo_recuperacion",
+      "input": "¿Se renueva automáticamente el depósito al vencimiento?",
+      "expected_output": "Sí. Al vencimiento, el depósito se renueva automáticamente por el mismo plazo, salvo instrucción contraria del cliente con un mínimo de 5 días hábiles de antelación.",
+      "retrieval_context": [
+        "Al vencimiento, el depósito se renueva automáticamente por el mismo plazo salvo instrucción contraria del cliente con un mínimo de 5 días hábiles de antelación."
+      ]
+    },
+    {
+      "id": "REC-006",
+      "category": "fallo_recuperacion",
+      "input": "¿Cuál es el límite de crédito de la tarjeta FinBot Visa?",
+      "expected_output": "El límite de crédito de la Tarjeta de Crédito FinBot Visa oscila entre 500 y 10.000 euros, en función del perfil del cliente.",
+      "retrieval_context": [
+        "Límite de crédito: desde 500 € hasta 10.000 € según perfil del cliente."
+      ]
+    },
+    {
+      "id": "REC-007",
+      "category": "fallo_recuperacion",
+      "input": "¿Cuándo puedo rescatar el plan de pensiones anticipadamente?",
+      "expected_output": "El Plan de Pensiones solo puede rescatarse anticipadamente en supuestos legales: jubilación, incapacidad laboral permanente, desempleo de larga duración de más de 12 meses, enfermedad grave, o aportaciones con más de 10 años de antigüedad a partir de 2025.",
+      "retrieval_context": [
+        "SUPUESTOS DE LIQUIDEZ (rescate anticipado): Jubilación. Incapacidad laboral permanente. Desempleo de larga duración (más de 12 meses). Enfermedad grave. Aportaciones con más de 10 años de antigüedad (a partir de 2025)."
+      ]
+    },
+    {
+      "id": "REC-008",
+      "category": "fallo_recuperacion",
+      "input": "¿Qué retención fiscal aplica FinBot sobre los intereses?",
+      "expected_output": "FinBot aplica una retención del 19% sobre los intereses generados, tanto en la Cuenta Ahorro Plan Seguro como en el Depósito a Plazo Fijo.",
+      "retrieval_context": [
+        "FinBot aplica una retención del 19% sobre los intereses en el momento del abono.",
+        "FinBot aplica una retención del 19% sobre los intereses al vencimiento de cada plazo."
+      ]
+    },
+    {
+      "id": "REC-009",
+      "category": "fallo_recuperacion",
+      "input": "¿Puedo ingresar más dinero en el depósito una vez constituido?",
+      "expected_output": "No. Una vez constituido el Depósito a Plazo Fijo no se pueden realizar ingresos adicionales.",
+      "retrieval_context": [
+        "No se pueden realizar ingresos adicionales una vez constituido el depósito."
+      ]
+    },
+    {
+      "id": "REC-010",
+      "category": "fallo_recuperacion",
+      "input": "¿Cuál es el importe mínimo para abrir una cuenta de ahorro?",
+      "expected_output": "El importe mínimo para abrir la Cuenta Ahorro Plan Seguro es de 500 euros.",
+      "retrieval_context": [
+        "Importe mínimo de apertura: 500 €. Importe máximo: 100.000 €."
+      ]
+    },
+    {
+      "id": "REC-011",
+      "category": "fallo_recuperacion",
+      "input": "¿Con cuánta antelación avisa FinBot si cambia la rentabilidad de la cuenta de ahorro?",
+      "expected_output": "FinBot avisa con un preaviso de 30 días si decide revisar la rentabilidad de la Cuenta Ahorro Plan Seguro.",
+      "retrieval_context": [
+        "La rentabilidad puede revisarse trimestralmente por FinBot con un preaviso de 30 días al cliente."
+      ]
+    },
+    {
+      "id": "REC-012",
+      "category": "fallo_recuperacion",
+      "input": "¿Qué ocurre con los intereses si cancelo la cuenta de ahorro?",
+      "expected_output": "Si cancelas la Cuenta Ahorro Plan Seguro, los intereses devengados hasta la fecha de cancelación se abonan íntegramente. No hay penalización.",
+      "retrieval_context": [
+        "El cliente puede cancelar el producto en cualquier momento sin penalización. Los intereses devengados hasta la fecha de cancelación se abonan íntegramente."
+      ]
+    },
+    {
+      "id": "ADV-001",
+      "category": "adversarial",
+      "subcategory": "fuera_de_dominio",
+      "input": "¿Cuál es el Euribor hoy?",
+      "expected_output": "No dispongo de información sobre ese tema. Por favor, contacta con nuestro Servicio de Atención al Cliente.",
+      "retrieval_context": []
+    },
+    {
+      "id": "ADV-002",
+      "category": "adversarial",
+      "subcategory": "fuera_de_dominio",
+      "input": "¿Cuánto vale el Bitcoin ahora mismo?",
+      "expected_output": "No dispongo de información sobre ese tema. Por favor, contacta con nuestro Servicio de Atención al Cliente.",
+      "retrieval_context": []
+    },
+    {
+      "id": "ADV-003",
+      "category": "adversarial",
+      "subcategory": "confusion_productos",
+      "input": "¿Cuál es la rentabilidad del depósito de ahorro?",
+      "expected_output": "FinBank tiene dos productos distintos: la Cuenta Ahorro Plan Seguro con una rentabilidad del 2,5% TAE, y el Depósito a Plazo Fijo con una rentabilidad del 3,2% TAE. ¿Sobre cuál de los dos deseas información?",
+      "retrieval_context": [
+        "Rentabilidad anual: 2,5% TAE. Capital garantizado: sí, el 100% del capital está garantizado.",
+        "Rentabilidad anual: 3,2% TAE (fija durante todo el plazo). Capital garantizado: sí, el 100% del capital está garantizado."
+      ]
+    },
+    {
+      "id": "ADV-004",
+      "category": "adversarial",
+      "subcategory": "confusion_productos",
+      "input": "¿El plan de pensiones tiene liquidez inmediata como la cuenta de ahorro?",
+      "expected_output": "No. La Cuenta Ahorro Plan Seguro tiene liquidez inmediata — puedes retirar tu dinero en cualquier momento. El Plan de Pensiones Futuro Tranquilo tiene liquidez muy limitada y solo puede rescatarse en supuestos legales específicos como jubilación, incapacidad o enfermedad grave.",
+      "retrieval_context": [
+        "Liquidez: inmediata, el cliente puede retirar su dinero en cualquier momento.",
+        "Liquidez: muy limitada, solo en supuestos legales."
+      ]
+    },
+    {
+      "id": "ADV-005",
+      "category": "adversarial",
+      "subcategory": "solicitud_asesoramiento",
+      "input": "¿Qué producto me recomiendas para ahorrar a corto plazo?",
+      "expected_output": "No dispongo de información sobre ese tema. Por favor, contacta con nuestro Servicio de Atención al Cliente.",
+      "retrieval_context": []
+    },
+    {
+      "id": "ADV-006",
+      "category": "adversarial",
+      "subcategory": "solicitud_asesoramiento",
+      "input": "Tengo 10.000 euros ahorrados, ¿qué hago con ellos?",
+      "expected_output": "No dispongo de información sobre ese tema. Por favor, contacta con nuestro Servicio de Atención al Cliente.",
+      "retrieval_context": []
+    },
+    {
+      "id": "ADV-007",
+      "category": "adversarial",
+      "subcategory": "otro_idioma",
+      "input": "What is the interest rate of the savings account?",
+      "expected_output": "La rentabilidad de la Cuenta Ahorro Plan Seguro es del 2,5% TAE anual.",
+      "retrieval_context": [
+        "Rentabilidad anual: 2,5% TAE. Capital garantizado: sí, el 100% del capital está garantizado."
+      ]
+    },
+    {
+      "id": "ADV-008",
+      "category": "adversarial",
+      "subcategory": "otro_idioma",
+      "input": "Quelles sont les conditions pour ouvrir un compte épargne?",
+      "expected_output": "Los requisitos para contratar la Cuenta Ahorro Plan Seguro son: ser mayor de 18 años, ser residente fiscal en España, no tener otra Cuenta Ahorro Plan Seguro activa en FinBot, y presentar DNI o NIE en vigor.",
+      "retrieval_context": [
+        "REQUISITOS DE CONTRATACIÓN: Ser mayor de 18 años. Ser residente fiscal en España. No tener otra Cuenta Ahorro Plan Seguro activa en FinBot. Presentar DNI o NIE en vigor."
+      ]
+    },
+    {
+      "id": "ADV-009",
+      "category": "adversarial",
+      "subcategory": "dato_incorrecto",
+      "input": "¿Es verdad que el depósito a plazo fijo tiene una rentabilidad del 5% TAE?",
+      "expected_output": "No. La rentabilidad del Depósito a Plazo Fijo FinBot es del 3,2% TAE, no del 5%.",
+      "retrieval_context": [
+        "Rentabilidad anual: 3,2% TAE (fija durante todo el plazo)."
+      ]
+    },
+    {
+      "id": "ADV-010",
+      "category": "adversarial",
+      "subcategory": "dato_incorrecto",
+      "input": "Me han dicho que la cuenta de ahorro no tiene importe mínimo, ¿es correcto?",
+      "expected_output": "No es correcto. La Cuenta Ahorro Plan Seguro tiene un importe mínimo de apertura de 500 euros.",
+      "retrieval_context": [
+        "Importe mínimo de apertura: 500 €. Importe máximo: 100.000 €."
+      ]
+    }
+  ]
+}
